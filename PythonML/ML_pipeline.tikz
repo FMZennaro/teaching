@@ -1,0 +1,15 @@
+\begin{tikzpicture}[thick,scale=2, every node/.style={scale=2}]
+
+\draw  (0,0) rectangle (2.5,1) node[pos=.5] {Data loading};
+\draw  (3,0) rectangle (6,1) node[pos=.5] {Data partioning};
+\draw  (6.5,0) rectangle (9,1) node[pos=.5] {Data pre-proc};
+\draw  (9.5,0) rectangle (11.5,1) node[pos=.5] {Model fit};
+\draw  (12,0) rectangle (14.5,1) node[pos=.5] {Evaluation};
+
+
+\path[,->] (2.5,.5) edge (3,.5);
+\path[,->] (6,.5) edge (6.5,.5);
+\path[,->] (9,.5) edge (9.5,.5);
+\path[,->] (11.5,.5) edge (12,.5);
+
+\end{tikzpicture}

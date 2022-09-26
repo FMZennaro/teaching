@@ -1,0 +1,23 @@
+\begin{tikzpicture}[thick,scale=2, every node/.style={scale=2}]
+
+\draw  (-.4,.2)[ultra thick, draw=black, fill=gray, opacity=0.2] rectangle (7.7,.9) node[pos=.5,opacity=1] {python};
+
+\draw  (6.7,1)[ultra thick, draw=black, fill=red, opacity=0.2] rectangle (7.5,4.9) node[pos=.5,rotate=90,opacity=1] {jupyter};
+
+\draw  (-.2,1)[ultra thick, draw=black, fill=blue, opacity=0.2] rectangle (6.5,1.9) node[pos=.5,opacity=1] {numpy};
+
+\draw  (0,2)[ultra thick, draw=black, fill=red, opacity=0.2] rectangle (2,2.9) node[pos=.5,opacity=1] {scipy};
+\draw  (2.1,2)[ultra thick, draw=black, fill=blue, opacity=0.2] rectangle (5,2.9) node[pos=.5,opacity=1] {matplotlib};
+\draw  (5.2,2.1)[ultra thick, draw=black, fill=white, opacity=0.2] rectangle (6.4,2.8) node[pos=.5,opacity=1] {...};
+
+\draw  (0,3)[ultra thick, draw=black, fill=red, opacity=0.2] rectangle (1.4,3.9) node[pos=.5,opacity=1] {joblib};
+\draw  (1.5,3)[ultra thick, draw=black, fill=red, opacity=0.2] rectangle (2.9,3.9) node[pos=.5,opacity=1] {pandas};
+\draw  (3,3)[ultra thick, draw=black, fill=blue, opacity=0.2] rectangle (5.2,3.9) node[pos=.5,opacity=1] {scikit-learn};
+\draw  (5.4,3.1)[ultra thick, draw=black, fill=white, opacity=0.2] rectangle (6.4,3.8) node[pos=.5,opacity=1] {...};
+
+\draw  (0,4)[ultra thick, draw=black, fill=red, opacity=0.2] rectangle (1.8,4.9) node[pos=.5,opacity=1] {networkx};
+\draw  (2,4)[ultra thick, draw=black, fill=red, opacity=0.2] rectangle (3.7,4.9) node[pos=.5,opacity=1] {tensorflow};
+\draw  (3.9,4)[ultra thick, draw=black, fill=red, opacity=0.2] rectangle (5.3,4.9) node[pos=.5,opacity=1] {pytorch};
+\draw  (5.5,4.1)[ultra thick, draw=black, fill=white, opacity=0.2] rectangle (6.4,4.8) node[pos=.5,opacity=1] {...};
+
+\end{tikzpicture}
